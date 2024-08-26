@@ -33,7 +33,6 @@ input[type=text], input[type=number] {
 button {
     width: 140px;
     height: 40px;
-    margin: 10px;
     background: darkorchid;
     color: white;
     border: none;
