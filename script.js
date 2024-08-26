@@ -72,6 +72,10 @@ function renderBookToLibrary() {
         bookCollectionRead.classList.add('read');
         bookCollectionRead.textContent = book.isRead;
         bookCollectionBody.appendChild(bookCollectionRead);
+
+        if(book.isRead == false) {
+            bookCollection.classList.add('book-not-read');
+        }
         
         //create book button container
         let bookBtn = document.createElement('button');
