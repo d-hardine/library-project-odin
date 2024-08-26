@@ -8,6 +8,30 @@
     <title>Library</title>
 </head>
 <body>
-    
+    <header>
+        <h1>LIBRARY PROJECT ODIN</h1>
+    </header>
+    <div class="flex-container">
+        <nav>
+            <button class="new-book-btn">New Book</button>
+            <form class="new-book-form" style="display: none;">
+                <label for="title">Title: <br></label>
+                <input type="text" name="title" id="title" required><br>
+                <label for="author">Author: <br></label>
+                <input type="text" name="author" id="author" required><br>
+                <label for="pages">Pages: <br></label>
+                <input type="number" name="pages" id="pages" min="0" required><br>
+                <label for="isRead">Already Read: </label>
+                <input type="checkbox" id="isRead" name="isRead">
+                <br> <br>
+                <button>Add Book</button>
+                <button type="button" class="hide-form-btn">Hide Book Form</button>
+            </form>
+        </nav>
+        <main>
+            <h1>This is your Library</h1>
+            <div class="library"></div>
+        </main>
+    </div>
 </body>
 </html>
