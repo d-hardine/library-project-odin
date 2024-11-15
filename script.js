@@ -76,6 +76,9 @@ function renderBookToLibrary() {
         if(book.isRead == false) {
             bookCollection.classList.add('book-not-read');
         }
+        else {
+            bookCollection.classList.add('book-read')
+        }
         
         //create book button container
         let bookBtn = document.createElement('button');

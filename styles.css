@@ -70,6 +70,10 @@ main h1 {
     border-left: 3px solid red;
 }
 
+.book-read {
+    border-left: 3px solid green;
+}
+
 .title {
     font-weight: bold;
     font-size: 24px;
